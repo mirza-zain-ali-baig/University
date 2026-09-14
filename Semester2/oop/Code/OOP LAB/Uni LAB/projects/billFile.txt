@@ -1,0 +1,16 @@
+1001|Ali|ICU|4500|Generated
+1001|Ali|4500|Paid
+1001|Ali|ICU|4500|Generated
+1001|Ali|4500|Paid
+1001||ICU|4500|Generated
+1001||4500|Paid
+1001|Ali|ICU|4500|Generated
+1001|Ali|4500|Paid
+1001|Ali|ICU|4500|Generated
+1001|Ali|4500|Paid
+1001|Ali|ICU|4500|Generated
+1001|Ali|4500|Paid
+1001|Ali|ICU|4500|Generated
+1001|Ali|4500|Paid
+1001|Ali|ICU|4500|Generated
+1001|Ali|4500|Paid

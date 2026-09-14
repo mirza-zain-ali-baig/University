@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - TechHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" >
+            <div class="nav-logo">
+                <h2>Tech<span>Hub</span></h2>
+            </div>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="inventory.html">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="purchase.html">Purchase</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="feedback.html">Reviews</a></li>
+                <li><a href="login.html" class="active">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Login Section -->
+    <section class="page-content common1" >
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; max-width: 1000px; margin: 0 auto;">
+                <div class="login-image">
+                    <img src="images/background.jpg" alt="Secure Login" style="width: 100%; border-radius: var(--border-radius); box-shadow: 0 0 20px rgba(129, 175, 235, 0.2);;">
+                </div>
+                
+                <div class="form-container" style="margin: 0; box-shadow: var(--box-shadow);">
+                    <div class="page-header" style="text-align: left;">
+                        <h1 style="font-size: 2rem;">Welcome Back</h1>
+                        <p>Sign in to your TechHub account</p>
+                    </div>
+                    
+                    <form class="login-form">
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <div class="input-with-icon">
+                                <i class="fas fa-envelope"></i>
+                                <input type="email" id="email" name="email" placeholder="abdullah@gmail.com" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <div class="input-with-icon">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" id="password" name="password" placeholder="••••••••" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group" style="display: flex; justify-content: space-between; align-items: center;">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="remember"> Remember me
+                            </label>
+                            <a href="#" style="color: var(--primary); font-size: 0.9rem;">Forgot password?</a>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%; margin-bottom: 1.5rem;">
+                            Sign In
+                        </button>
+                        
+                        <div class="social-login">
+                            <p style="text-align: center; margin-bottom: 1rem; color: var(--gray);">Or sign in with</p>
+                            <div style="display: flex; gap: 1rem; justify-content: center;">
+                                <a href="#" class="social-login-btn">
+                                    <i class="fab fa-google"></i>
+                                </a>
+                                <a href="#" class="social-login-btn">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="social-login-btn">
+                                    <i class="fab fa-apple"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div style="text-align: center; margin-top: 2rem;">
+                            <p>Don't have an account? <a href="signup.html" style="color: var(--primary); font-weight: 600;">Sign up here</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Tech<span>Hub</span></h3>
+                    <p>Your trusted partner for all technology needs.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="inventory.html">Products</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="feedback.html">Reviews</a></li>
+                        <li><a href="contact.html">Support</a></li>
+                        <li><a href="purchase.html">Purchase</a></li>
+                        <li><a href="#">Warranty</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Tech Street, Mughal pura, Lahore</li>
+                        <li><i class="fas fa-phone"></i> 0324-8709423</li>
+                        <li><i class="fas fa-envelope"></i> support@techhub.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TechHub. All rights reserved.</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-cc-apple-pay"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <style>
+        .input-with-icon {
+            position: relative;
+        }
+        
+        .input-with-icon i {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--gray);
+        }
+        
+        .input-with-icon input {
+            padding-left: 40px;
+        }
+        
+        .social-login-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: var(--light);
+            color: var(--gray-dark);
+            transition: var(--transition);
+        }
+        
+        .social-login-btn:hover {
+            background: var(--primary);
+            color: white;
+            transform: translateY(-3px);
+        }
+        
+        @media (max-width: 768px) {
+            .page-content > div > div {
+                grid-template-columns: 1fr;
+            }
+            
+            .login-image {
+                display: none;
+            }
+        }
+    </style>
+</body>
+</html>

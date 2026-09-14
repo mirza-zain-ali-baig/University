@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - TechHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" >
+            <div class="nav-logo">
+                <h2>Tech<span>Hub</span></h2>
+            </div>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="inventory.html" class="active">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="purchase.html">Purchase</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="feedback.html">Reviews</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="page-content" style="background: url('');">
+        <div class="container" >
+            <div class="page-header">
+                <h1>Our Products</h1>
+                <p>Discover our extensive range of cutting-edge technology products</p>
+            </div>
+
+            <!-- Product Categories -->
+            <div class="category-filters" style="text-align: center; margin-bottom: 3rem;">
+                <button class="btn btn-outline" style="margin: 0.5rem;">All Products</button>
+                <button class="btn btn-outline" style="margin: 0.5rem;">Smartphones</button>
+                <button class="btn btn-outline" style="margin: 0.5rem;">Laptops</button>
+                <button class="btn btn-outline" style="margin: 0.5rem;">Audio</button>
+                <button class="btn btn-outline" style="margin: 0.5rem;">Accessories</button>
+                <button class="btn btn-outline" style="margin: 0.5rem;">Gaming</button>
+            </div>
+
+            <!-- Products Table -->
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product Image</th>
+                            <th>Product Name</th>
+                            <th>Category</th>
+                            <th>Price</th>
+                            <th>Stock</th>
+                            <th>Rating</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="images/smart-phone.jpg" alt="iPhone 15 Pro" style="border-radius: 5px; width: 60px; height: 60px; object-fit: cover;"></td>
+                            <td><strong>iPhone 15 Pro</strong><br><small>Latest flagship smartphone</small></td>
+                            <td>Smartphones</td>
+                            <td><strong style="color: var(--primary);">$999</strong></td>
+                            <td><span style="color: var(--success);">In Stock (25)</span></td>
+                            <td>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span>(4.8)</span>
+                                </div>
+                            </td>
+                            <td><a href="purchase.html" class="btn btn-small btn-primary">Buy Now</a></td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80" alt="MacBook Pro" style="border-radius: 5px; width: 60px; height: 60px; object-fit: cover;"></td>
+                            <td><strong>MacBook Pro 16"</strong><br><small>Professional laptop for creators</small></td>
+                            <td>Laptops</td>
+                            <td><strong style="color: var(--primary);">$2,399</strong></td>
+                            <td><span style="color: var(--success);">In Stock (12)</span></td>
+                            <td>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>(4.9)</span>
+                                </div>
+                            </td>
+                            <td><a href="purchase.html" class="btn btn-small btn-primary">Buy Now</a></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/head-phone.jpg" alt="AirPods Pro" style="border-radius: 5px; width: 60px; height: 60px; object-fit: cover;"></td>
+                            <td><strong>AirPods Pro 2</strong><br><small>Wireless earbuds with ANC</small></td>
+                            <td>Audio</td>
+                            <td><strong style="color: var(--primary);">$249</strong></td>
+                            <td><span style="color: var(--success);">In Stock (45)</span></td>
+                            <td>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(4.7)</span>
+                                </div>
+                            </td>
+                            <td><a href="purchase.html" class="btn btn-small btn-primary">Buy Now</a></td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://images.unsplash.com/photo-1603302576837-37561b2e2302?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80" alt="Gaming Laptop" style="border-radius: 5px; width: 60px; height: 60px; object-fit: cover;"></td>
+                            <td><strong>ASUS ROG Strix</strong><br><small>High-performance gaming laptop</small></td>
+                            <td>Laptops</td>
+                            <td><strong style="color: var(--primary);">$1,799</strong></td>
+                            <td><span style="color: var(--warning);">Low Stock (3)</span></td>
+                            <td>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span>(4.6)</span>
+                                </div>
+                            </td>
+                            <td><a href="purchase.html" class="btn btn-small btn-primary">Buy Now</a></td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80" alt="Samsung Galaxy" style="border-radius: 5px; width: 60px; height: 60px; object-fit: cover;"></td>
+                            <td><strong>Samsung Galaxy S24</strong><br><small>Android flagship smartphone</small></td>
+                            <td>Smartphones</td>
+                            <td><strong style="color: var(--primary);">$899</strong></td>
+                            <td><span style="color: var(--success);">In Stock (18)</span></td>
+                            <td>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span>(4.5)</span>
+                                </div>
+                            </td>
+                            <td><a href="purchase.html" class="btn btn-small btn-primary">Buy Now</a></td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80" alt="Wireless Charger" style="border-radius: 5px; width: 60px; height: 60px; object-fit: cover;"></td>
+                            <td><strong>MagSafe Charger</strong><br><small>Wireless charging pad</small></td>
+                            <td>Accessories</td>
+                            <td><strong style="color: var(--primary);">$39</strong></td>
+                            <td><span style="color: var(--success);">In Stock (67)</span></td>
+                            <td>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(4.3)</span>
+                                </div>
+                            </td>
+                            <td><a href="purchase.html" class="btn btn-small btn-primary">Buy Now</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Product Grid View -->
+            <div class="product-grid" style="margin-top: 4rem;">
+                <div class="product-card">
+                    <div class="product-badge">New</div>
+                    <img src="images/ipad.jpg" alt="iPad Pro">
+                    <div class="product-info">
+                        <h3>iPad Pro 12.9"</h3>
+                        <p>Professional tablet for creative work</p>
+                        <div class="price">$1,099</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(4.8)</span>
+                        </div>
+                        <a href="purchase.html" class="btn btn-small">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge hot">Hot</div>
+                    <img src="images/apple-watch.jpg" alt="Apple Watch">
+                    <div class="product-info">
+                        <h3>Apple Watch Series 9</h3>
+                        <p>Advanced smartwatch with health features</p>
+                        <div class="price">$399</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(4.9)</span>
+                        </div>
+                        <a href="purchase.html" class="btn btn-small">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/monitor.jpg" alt="Gaming Monitor">
+                    <div class="product-info">
+                        <h3>4K Gaming Monitor</h3>
+                        <p>Ultra-wide curved gaming display</p>
+                        <div class="price">$599</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(4.2)</span>
+                        </div>
+                        <a href="purchase.html" class="btn btn-small">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Load More Button -->
+            <div style="text-align: center; margin-top: 3rem;">
+                <button class="btn btn-outline">Load More Products</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Tech<span>Hub</span></h3>
+                    <p>Your trusted partner for all technology needs.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="inventory.html">Products</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="feedback.html">Reviews</a></li>
+                        <li><a href="contact.html">Support</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Warranty</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Tech Street, Mughal pura, Lahore</li>
+                        <li><i class="fas fa-phone"></i> 0324-8709423</li>
+                        <li><i class="fas fa-envelope"></i> support@techhub.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TechHub. All rights reserved.</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-cc-apple-pay"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <style>
+        /* Additional styles for inventory page */
+        .search-filter-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .search-bar {
+            position: relative;
+            flex: 1;
+            max-width: 400px;
+        }
+
+        .search-bar i {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--gray);
+        }
+
+        .search-bar input {
+            width: 100%;
+            padding: 12px 15px 12px 45px;
+            border: 2px solid var(--gray-light);
+            border-radius: var(--border-radius);
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+
+        .search-bar input:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+
+        .filter-options {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .filter-select {
+            padding: 12px 15px;
+            border: 2px solid var(--gray-light);
+            border-radius: var(--border-radius);
+            background: white;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .filter-select:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+
+        .category-filters {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .category-filters .btn.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        .view-toggle {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .view-btn {
+            padding: 10px 20px;
+            border: 2px solid var(--gray-light);
+            background: white;
+            border-radius: var(--border-radius);
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .view-btn.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        .table-product-image {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .product-name-cell strong {
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .product-name-cell small {
+            color: var(--gray);
+            font-size: 0.85rem;
+        }
+
+        .category-tag {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .category-tag.smartphones { background: #e3f2fd; color: #1976d2; }
+        .category-tag.laptops { background: #f3e5f5; color: #7b1fa2; }
+        .category-tag.audio { background: #e8f5e8; color: #388e3c; }
+        .category-tag.gaming { background: #fff3e0; color: #f57c00; }
+        .category-tag.accessories { background: #fce4ec; color: #c2185b; }
+
+        .price-text {
+            color: var(--primary);
+            font-size: 1.1rem;
+        }
+
+        .stock-status {
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .stock-status.in-stock {
+            background: #e8f5e8;
+            color: #2e7d32;
+        }
+
+        .stock-status.low-stock {
+            background: #fff3e0;
+            color: #f57c00;
+        }
+
+        .rating-score {
+            margin-left: 8px;
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            overflow: hidden;
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        .product-badge {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            z-index: 2;
+        }
+
+        .product-badge.new {
+            background: var(--success);
+            color: white;
+        }
+
+        .product-badge.hot {
+            background: var(--danger);
+            color: white;
+        }
+
+        .product-image {
+            position: relative;
+            overflow: hidden;
+            height: 250px;
+        }
+
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+
+        .product-card:hover .product-image img {
+            transform: scale(1.05);
+        }
+
+        .product-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.7);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            opacity: 0;
+            transition: var(--transition);
+        }
+
+        .product-card:hover .product-overlay {
+            opacity: 1;
+        }
+
+        .quick-view-btn, .product-overlay .wishlist-btn {
+            background: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: var(--border-radius);
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .quick-view-btn:hover, .product-overlay .wishlist-btn:hover {
+            background: var(--primary);
+            color: white;
+        }
+
+        .product-info {
+            padding: 1.5rem;
+        }
+
+        .product-category {
+            color: var(--primary);
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+        }
+
+        .product-info h3 {
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        .product-info p {
+            color: var(--gray);
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+        }
+
+        .product-rating {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .rating-count {
+            color: var(--gray);
+            font-size: 0.85rem;
+        }
+
+        .product-price {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .current-price {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        .original-price {
+            text-decoration: line-through;
+            color: var(--gray);
+            font-size: 1rem;
+        }
+
+        .discount {
+            background: var(--danger);
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: bold;
+        }
+
+        .product-actions {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .product-actions .btn {
+            flex: 1;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        .load-more-section {
+            text-align: center;
+            margin: 3rem 0;
+        }
+
+        .products-count {
+            margin-top: 1rem;
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+
+        .featured-brands {
+            margin-top: 4rem;
+        }
+
+        .brands-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .brand-card {
+            background: white;
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            text-align: center;
+            transition: var(--transition);
+        }
+
+        .brand-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .brand-card img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+
+        .brand-card h4 {
+            margin-bottom: 0.5rem;
+            color: var(--dark);
+        }
+
+        .brand-card p {
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .search-filter-section {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .filter-options {
+                flex-direction: column;
+            }
+
+            .category-filters {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .category-filters .btn {
+                width: 200px;
+            }
+
+            .products-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .product-actions {
+                flex-direction: column;
+            }
+
+            .action-buttons {
+                flex-direction: column;
+                gap: 0.25rem;
+            }
+
+            .table-container {
+                overflow-x: auto;
+            }
+        }
+    </style>
+</body>
+</html>

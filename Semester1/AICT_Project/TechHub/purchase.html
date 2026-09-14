@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase - TechHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" >
+            <div class="nav-logo">
+                <h2>Tech<span>Hub</span></h2>
+            </div>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="inventory.html">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="purchase.html">Purchase</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="feedback.html">Reviews</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Purchase Page Content -->
+    <div class="page-content"  style="background: url('') no-repeat center center fixed; background-size: cover;">
+        <div class="container ">
+            <div class="page-header">
+                <h1>Complete Your Purchase</h1>
+                <p>Secure checkout for your selected items</p>
+            </div>
+
+            <div class="purchase-container">
+                <!-- Order Summary -->
+                <div class="order-summary">
+                    <h2>Order Summary</h2>
+                    <div class="purchase-summary">
+                        <div class="product-row">
+                            <img src="images/smart-phone.jpg" alt="iPhone 15 Pro">
+                            <div class="product-details">
+                                <h3>iPhone 15 Pro</h3>
+                                <p>256GB, Space Black</p>
+                                <p class="product-price">99900.00 rs</p>
+                            </div>
+                            <div class="quantity-controls">
+                                <button class="qty-btn">-</button>
+                                <span class="quantity">1</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                        </div>
+                        
+                        <div class="product-row">
+                            <img src="images/head-phone.jpg" alt="AirPods Pro">
+                            <div class="product-details">
+                                <h3>AirPods Pro 2</h3>
+                                <p>Wireless Earbuds with ANC</p>
+                                <p class="product-price">24900.00</p>
+                            </div>
+                            <div class="quantity-controls">
+                                <button class="qty-btn">-</button>
+                                <span class="quantity">1</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                        </div>
+                        
+                        <div class="order-totals">
+                            <div class="summary-row">
+                                <span>Subtotal:</span>
+                                <span>1,2480.00 rs</span>
+                            </div>
+                            <div class="summary-row">
+                                <span>Shipping:</span>
+                                <span class="free">Free</span>
+                            </div>
+                            <div class="summary-row">
+                                <span>Tax:</span>
+                                <span>9900.84 rs</span>
+                            </div>
+                            <div class="summary-total">
+                                <span>Total:</span>
+                                <span class="total-price">1,34700.84 rs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Payment Form -->
+                <div class="payment-section">
+                    <h2>Payment Information</h2>
+                    <form class="contact-form">
+                        <div class="form-section">
+                            <h3><i class="fas fa-user"></i> Personal Information</h3>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName">First Name</label>
+                                    <input type="text" id="firstName" name="firstName" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName">Last Name</label>
+                                    <input type="text" id="lastName" name="lastName" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-section">
+                            <h3><i class="fas fa-shipping-fast"></i> Shipping Address</h3>
+                            <div class="form-group">
+                                <label for="address">Street Address</label>
+                                <input type="text" id="address" name="address" required>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="city">City</label>
+                                    <input type="text" id="city" name="city" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="state">State</label>
+                                    <select id="state" name="state" required>
+                                        <option value="">Select State</option>
+                                        <option value="CA">Punjab</option>
+                                        <option value="NY">Khyber Pakhtukhawa</option>
+                                        <option value="TX">Sindh</option>
+                                        <option value="FL">Balochistan</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="zipCode">ZIP Code</label>
+                                    <input type="text" id="zipCode" name="zipCode" required>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-section">
+                            <h3><i class="fas fa-credit-card"></i> Payment Details</h3>
+                            <div class="form-group">
+                                <label for="cardNumber">Card Number</label>
+                                <input type="text" id="cardNumber" name="cardNumber" placeholder="1234 5678 9012 3456" required>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="expiryDate">Expiry Date</label>
+                                    <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="cvv">CVV</label>
+                                    <input type="text" id="cvv" name="cvv" placeholder="123" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="cardName">Name on Card</label>
+                                <input type="text" id="cardName" name="cardName" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="saveCard"> Save card for future purchases
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary purchase-btn">
+                            <i class="fas fa-lock"></i> Complete Purchase - 1,34700.84 rs
+                        </button>
+                        
+                        <div class="security-notice">
+                            <i class="fas fa-shield-alt"></i>
+                            <p>Your payment information is secure and encrypted</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Payment Methods -->
+            <div class="payment-methods-section">
+                <h3>We Accept</h3>
+                <div class="payment-methods-icons">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-cc-apple-pay"></i>
+                    <i class="fab fa-google-pay"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Tech<span>Hub</span></h3>
+                    <p>Your trusted partner for all technology needs.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="inventory.html">Products</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="feedback.html">Reviews</a></li>
+                        <li><a href="contact.html">Support</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Warranty</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Tech Street, Mughal pura, Lahore</li>
+                        <li><i class="fas fa-phone"></i> 0324-8709423</li>
+                        <li><i class="fas fa-envelope"></i> support@techhub.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechHub. All rights reserved.</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-cc-apple-pay"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

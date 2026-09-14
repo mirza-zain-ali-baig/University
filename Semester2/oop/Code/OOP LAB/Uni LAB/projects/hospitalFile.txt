@@ -1,0 +1,15 @@
+HOSPITAL_INIT|Patients:2|Doctors:2|Rooms:3
+FIND_PATIENT|Found|ID:0|Name:Ali
+HOSPITAL_INIT|Patients:2|Doctors:2|Rooms:3
+FIND_PATIENT|Found|ID:0|Name:Ali
+HOSPITAL_INIT|Patients:2|Doctors:2|Rooms:3
+HOSPITAL_INIT|Patients:2|Doctors:2|Rooms:3
+FIND_PATIENT|Found|ID:0|Name:Ali
+HOSPITAL_INIT|Patients:2|Doctors:2|Rooms:3
+FIND_PATIENT|Found|ID:0|Name:Ali
+HOSPITAL_INIT|Patients:2|Doctors:2|Rooms:3
+FIND_PATIENT|Found|ID:0|Name:Ali
+HOSPITAL_INIT|Patients:2|Doctors:2|Rooms:3
+FIND_PATIENT|Found|ID:0|Name:Ali
+HOSPITAL_INIT|Patients:2|Doctors:2|Rooms:3
+FIND_PATIENT|Found|ID:0|Name:Ali

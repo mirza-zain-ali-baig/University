@@ -1,0 +1,15 @@
+class Academy;
+class Branch;
+class Program;
+class ClassLevel;
+class Subject;
+class Teacher;
+class Student;
+class CourseBatch;
+class Attendance;
+class Test;
+class TestResult;
+class FeeRecord;
+class AdminStaff;
+class Salary;
+class SMSalert; 

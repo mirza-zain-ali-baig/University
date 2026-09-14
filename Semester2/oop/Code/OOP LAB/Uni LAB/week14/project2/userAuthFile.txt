@@ -1,0 +1,3 @@
+admin|admin123|Admin
+doctor1|doc123|Doctor
+operator1|op123|Operator

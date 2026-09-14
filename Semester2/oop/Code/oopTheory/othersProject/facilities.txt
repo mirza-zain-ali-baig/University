@@ -1,0 +1,2 @@
+2|2|2|2|2
+2|CSLAB|Lab|100|available

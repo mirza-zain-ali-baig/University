@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - TechHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" >
+            <div class="nav-logo">
+                <h2>Tech<span>Hub</span></h2>
+            </div>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="inventory.html">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="purchase.html">Purchase</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="feedback.html">Reviews</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Gallery Page Content -->
+    <div class="page-content" style="background: url('');">
+        <div class="container">
+            <div class="page-header">
+                <h1>Product Gallery</h1>
+                <p>Explore our extensive collection of cutting-edge technology products</p>
+            </div>
+
+            <!-- Gallery Categories -->
+            <div class="gallery-categories">
+                <button class="btn btn-outline active" data-category="all">All Products</button>
+                <button class="btn btn-outline" data-category="smartphones">Smartphones</button>
+                <button class="btn btn-outline" data-category="laptops">Laptops</button>
+                <button class="btn btn-outline" data-category="audio">Audio</button>
+                <button class="btn btn-outline" data-category="accessories">Accessories</button>
+                <button class="btn btn-outline" data-category="gaming">Gaming</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="smartphones">
+                    <img src="images/smart-phone.jpg" alt="iPhone 15 Pro">
+                    <div class="gallery-overlay">
+                        <h3>iPhone 15 Pro</h3>
+                        <p>Latest flagship smartphone with advanced features</p>
+                        <a href="inventory.html" class="btn btn-small">View Product</a>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="laptops">
+                    <img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="MacBook Pro">
+                    <div class="gallery-overlay">
+                        <h3>MacBook Pro 16"</h3>
+                        <p>Professional laptop for creators and developers</p>
+                        <a href="inventory.html" class="btn btn-small">View Product</a>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="audio">
+                    <img src="images/head-phone.jpg" alt="Wireless Headphones">
+                    <div class="gallery-overlay">
+                        <h3>Premium Headphones</h3>
+                        <p>Wireless headphones with noise cancellation</p>
+                        <a href="inventory.html" class="btn btn-small">View Product</a>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="gaming">
+                    <img src="https://images.unsplash.com/photo-1603302576837-37561b2e2302?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Gaming Laptop">
+                    <div class="gallery-overlay">
+                        <h3>Gaming Laptop</h3>
+                        <p>High-performance laptop for gaming enthusiasts</p>
+                        <a href="inventory.html" class="btn btn-small">View Product</a>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="smartphones">
+                    <img src="https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Samsung Galaxy">
+                    <div class="gallery-overlay">
+                        <h3>Samsung Galaxy S24</h3>
+                        <p>Android flagship with innovative features</p>
+                        <a href="inventory.html" class="btn btn-small">View Product</a>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="accessories">
+                    <img src="https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Wireless Charger">
+                    <div class="gallery-overlay">
+                        <h3>Wireless Charger</h3>
+                        <p>Fast wireless charging for all devices</p>
+                        <a href="inventory.html" class="btn btn-small">View Product</a>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="laptops">
+                    <img src="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="iPad Pro">
+                    <div class="gallery-overlay">
+                        <h3>iPad Pro 12.9"</h3>
+                        <p>Professional tablet for creative work</p>
+                        <a href="inventory.html" class="btn btn-small">View Product</a>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="accessories">
+                    <img src="https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Apple Watch">
+                    <div class="gallery-overlay">
+                        <h3>Apple Watch Series 9</h3>
+                        <p>Advanced smartwatch with health features</p>
+                        <a href="inventory.html" class="btn btn-small">View Product</a>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="gaming">
+                    <img src="images/monitor.jpg" alt="Gaming Monitor">
+                    <div class="gallery-overlay">
+                        <h3>4K Gaming Monitor</h3>
+                        <p>Ultra-wide curved gaming display</p>
+                        <a href="inventory.html" class="btn btn-small">View Product</a>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="audio">
+                    <img src="https://images.unsplash.com/photo-1484704849700-f032a568e944?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Bluetooth Speaker">
+                    <div class="gallery-overlay">
+                        <h3>Bluetooth Speaker</h3>
+                        <p>Portable speaker with premium sound quality</p>
+                        <a href="inventory.html" class="btn btn-small">View Product</a>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="accessories">
+                    <img src="images/phone-case.jpg" alt="Phone Case">
+                    <div class="gallery-overlay">
+                        <h3>Premium Phone Case</h3>
+                        <p>Protective case with elegant design</p>
+                        <a href="inventory.html" class="btn btn-small">View Product</a>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="gaming">
+                    <img src="https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Gaming Keyboard">
+                    <div class="gallery-overlay">
+                        <h3>Mechanical Keyboard</h3>
+                        <p>RGB gaming keyboard with tactile switches</p>
+                        <a href="inventory.html" class="btn btn-small">View Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Store Showcase -->
+            <section class="store-showcase">
+                <div class="section-header">
+                    <h2>Visit Our Showroom</h2>
+                    <p>Experience our products in person at our state-of-the-art showroom</p>
+                </div>
+                <div class="showcase-grid">
+                    <div class="showcase-item">
+                        <img src="images/showroom.jpg" alt="TechHub Store Interior">
+                        <div class="showcase-overlay">
+                            <h3>Modern Showroom</h3>
+                            <p>Interactive displays and expert demonstrations</p>
+                        </div>
+                    </div>
+                    <div class="showcase-item">
+                        <img src="images/expert.jpg" alt="Customer Service">
+                        <div class="showcase-overlay">
+                            <h3>Expert Support</h3>
+                            <p>Knowledgeable staff ready to help</p>
+                        </div>
+                    </div>
+                    <div class="showcase-item">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Product Testing">
+                        <div class="showcase-overlay">
+                            <h3>Try Before You Buy</h3>
+                            <p>Test all products hands-on</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Load More Button -->
+            <div style="text-align: center; margin-top: 3rem;">
+                <button class="btn btn-outline" id="loadMore">Load More Images</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Tech<span>Hub</span></h3>
+                    <p>Your trusted partner for all technology needs.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="inventory.html">Products</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="feedback.html">Reviews</a></li>
+                        <li><a href="contact.html">Support</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Warranty</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Tech Street, Mughal pura, Lahore</li>
+                        <li><i class="fas fa-phone"></i> 0324-8709423</li>
+                        <li><i class="fas fa-envelope"></i> support@techhub.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TechHub. All rights reserved.</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-cc-apple-pay"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+
+    <style>
+        .gallery-categories {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+        }
+
+        .gallery-categories .btn.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        .showcase-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .showcase-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            height: 300px;
+        }
+
+        .showcase-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+
+        .showcase-item:hover img {
+            transform: scale(1.05);
+        }
+
+        .showcase-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(0,0,0,0.8));
+            color: white;
+            padding: 2rem;
+            transform: translateY(50%);
+            transition: var(--transition);
+        }
+
+        .showcase-item:hover .showcase-overlay {
+            transform: translateY(0);
+        }
+
+        .store-showcase {
+            margin-top: 4rem;
+        }
+
+        @media (max-width: 768px) {
+            .gallery-categories {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .gallery-categories .btn {
+                width: 200px;
+            }
+        }
+    </style>
+</body>
+</html>

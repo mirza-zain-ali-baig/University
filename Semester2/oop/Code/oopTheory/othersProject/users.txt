@@ -1,0 +1,11 @@
+zain|123|admin
+ali|ali123|admin
+zain|zani|student
+zain|zai2|admin
+zain|123|admin
+zain|zain|student
+sohaib|123|student
+admin|admin|admin
+zain|zain|admin
+zain|zain|student
+admin|admin|student

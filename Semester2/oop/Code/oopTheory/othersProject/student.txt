@@ -1,0 +1,4 @@
+1|zain|CS|1
+125|sohaib|cs|2
+0|zain|cs|1
+0|admin|cd|"c:\Users\GH
