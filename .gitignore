@@ -1,2 +1,16 @@
 Semester4/IS Lab/Week1/KaliLinux-Windows_setup_in_VMware
 Semester4\IS Lab\Week1\KaliLinux-Windows_setup_in_VMware
+
+# Python
+__pycache__/
+*.pyc
+
+# Compiled programs
+*.exe
+
+# Temporary/backup files
+.$*.bkp
+*.tmp
+
+# IDE/editor files
+.vscode/
