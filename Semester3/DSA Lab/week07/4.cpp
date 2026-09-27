@@ -1,0 +1,79 @@
+// Infix → Postfix Conversion: Convert infix expression (A+B)*C into postfix form A B +
+// C *.
+// Hint: Use a stack for operators.
+// Pop from the stack when precedence is higher or equal before pushing a new operator
+
+#include<iostream>
+using namespace std;
+
+class Stack{
+    char stack[100];
+    int top;
+    public:
+     Stack(){
+        top = -1;
+     }
+
+     bool isEmpty(){
+        return top ==-1;
+     }
+
+     void push(char value){
+        stack[++top] = value;
+     }
+     void pop(){
+        top--;
+     }
+
+     int precedenceAlgorithm(char op1){
+        if (op1 == '+' || op1 == '-'){
+            return 1;
+        }
+        else if( op1 == '*' && op1 == '/'){
+            return 2;
+        }
+        else if(op1 == '^' ){
+            return 3;
+        }
+        return -1;
+     }
+
+     string converter(string input){
+        string postfix = "";
+        for(int i = 0;i<input.length();i++){
+            char current = input[i];
+            if((current >= 'A' && current <= 'Z') || (current>= 'a' && current <= 'z')){
+                postfix += current;
+            }
+            else if(current == '-' || current == '+' || current == '*' || current == '/'){
+                while(top != -1 && precedenceAlgorithm(stack[top])>=precedenceAlgorithm(current)){   
+                        postfix += stack[top];
+                        pop();
+                     }
+                     push(current);
+            }
+            else if(current == '('){
+                push(current);
+            }
+            else if(current == ')'){
+                while(stack[top] != '('){
+                    postfix += stack[top];
+                    pop();
+                }
+                pop();
+            }
+        }
+        while(top != -1){
+            postfix += stack[top--];
+        }
+        return postfix;
+     }
+};
+
+int main(){
+    string input = "(A+B)*C";
+    Stack s;
+    cout << s.converter(input) << endl;
+
+    return 0;
+}
